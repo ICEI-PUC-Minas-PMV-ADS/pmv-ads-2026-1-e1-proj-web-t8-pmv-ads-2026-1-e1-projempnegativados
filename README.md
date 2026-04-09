@@ -13,7 +13,7 @@ O objetivo geral deste projeto é a criação de uma aplicação web de fácil a
 * Geraldo Rodrigo Couto
 * Gustavo Nicodemos Emmerik
 * Lucas Vinicius Moreira da Silva
-* Vitória Silva Martins
+* Victória Silva Martins
 
 ## Orientador
 
