@@ -68,8 +68,8 @@ Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Can
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-e1-exemplo-vida-de-estudante/blob/main/codigo-fonte/README.md)               |
-| Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-e1-exemplo-vida-de-estudante/blob/main/)                           |
+| Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-projempnegativados/blob/main/codigo-fonte/README.md               |
+| Documentos do projeto               | GitHub                             |    https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-projempnegativados                        |
 | Projeto de Interface e wireframes   | Canva                              | https://canva.link/egkm6xih1z14guk)                           |
 | Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-SI/projects/396)                       |
 
