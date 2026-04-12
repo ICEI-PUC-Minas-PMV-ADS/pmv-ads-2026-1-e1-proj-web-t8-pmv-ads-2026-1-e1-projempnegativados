@@ -108,7 +108,7 @@ Os tamanhos de fonte variam entre 15px e 45px, distribuídos conforme a hierarqu
 </figure> 
 <hr>
 
-<h3><b> Logo do projeto - REFINANCE </b></h3>
+<h3><b> Logo do projeto </b></h3>
 <p>Para a criação do logotipo do projeto foi utilizada a cor verde, pois ela está associada à estabilidade financeira, crescimento e equilíbrio econômico, elementos diretamente ligados ao conceito de refinanciamento. A escolha do símbolo de cédulas com cifrão representa de forma clara e objetiva o universo financeiro, reforçando a ideia de organização e controle do dinheiro. Além disso, o nome “Refinance” em destaque contribui para a fácil identificação do propósito do projeto, transmitindo simplicidade e foco na área de finanças..</p>
 
 <img width="368" height="89" alt="LOGO" src="https://github.com/user-attachments/assets/7429c2e6-bb46-4da5-81cb-39bef4c8c730" />
