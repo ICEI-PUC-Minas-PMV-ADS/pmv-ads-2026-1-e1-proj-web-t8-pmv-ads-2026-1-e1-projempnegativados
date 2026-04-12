@@ -91,7 +91,7 @@ Os tamanhos de fonte variam entre 15px e 45px, distribuídos conforme a hierarqu
 </figure> 
 <hr>
 
-<h3><b>Tela - Suporte</b></h3>
+<h3><b>Tela - Suporte </b></h3>
 <p>Exibe informações sobre suporte da plataforma.</p>
 
 ![10](https://github.com/user-attachments/assets/ebec6363-2252-48fb-a5b2-e6c931a008af)
