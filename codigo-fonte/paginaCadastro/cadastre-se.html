@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <meta name="author" content="Geraldo Couto, Gustavo Henrique, Lucas de Oliveira, Victoria de Oliveira">
+    <meta name="description" content="Orientação financeira para você e sua empresa!">
+    <meta name="keywords" content="finanças, educação financeira, planejamento financeiro, orçamento, investimentos">
+    <title>REFINANCE</title>
+    <link rel="stylesheet" href="./styleMenu.css">
+    <link rel="stylesheet" href="./cadastro.css">
+    
+    
+  
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="./index.html">
+                <img src="logo-refinance.png" alt="Logo Refinance">
+            </a>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="../paginaprimeirospassos/index.html">Primeiros Passos</a></li>
+                <li><a href="../paginaperfil/index.html#perfil">Perfil</a></li>
+                <li><a href="../paginaserviços/serviços.html">Serviços</a></li>
+                <li><a href="../paginasuporte/paginasuporte.html">Suporte</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    
+     <form onsubmit="return false"  name="formulario">
+        <div class="cadastrar">
+            <h1 class="cad-um">Cadastro de Usuários</h1>
+             <div class="caixas">
+                 <div class="caixa">
+                    <label>Nome Completo *</label><br/>
+                    <input type="text" name="nome" id="nome"  minlength="4" required placeholder="Digite seu nome"><br/>
+                 </div>               
+                 <div class="caixa">
+                     <label>Email *</label><br/>
+                     <input type="email" name = "email" id="email" required placeholder="Digite seu email"></br>
+                 </div>
+                 
+                 <div class="caixa">
+                     <label>CPF/CNPJ *</label><br/>
+                     <input type="text" name="cpfcnpj" id="cpfcnpj" minlength="10" required placeholder="Digite seu CPF/CNPJ"></br>
+                 </div>
+                 <div class="caixa">
+                     <label>Senha *</label><br/>
+                     <input type="password" name="Senha" id="Senha" minlength="6"  required placeholder="Crie uma senha"></br>
+                   
+                 </div>
+                 <div class="caixa">
+                     <label>Confirmação de senha *</label><br/>
+                     <input type="password" name="ConfirmeSenha"  id = "ConfirmeSenha"  minlength="6" required  placeholder="Confirme sua senha"></br>
+                 </div>
+                 <p>
+                     Campos obrigatórios(*)
+                 </p>
+             </div>
+             <div>
+                <button onclick=" return cadastrar()" class="cad-button" id="botao" >Cadastrar</button>
+             </div>
+        </div>
+    </form>
+    
+        <footer class="rodape">
+            <p>Copyright &#169 2026 Refinance | Todos os direitos reservados.</p>
+        </footer>
+    </main>
+   
+    <script src="../menu/mobile-navbar.js"></script>
+    <script src="./script.js"></script>
+   
+
+
+    
+  
+   
+</body>
+
+</html>
