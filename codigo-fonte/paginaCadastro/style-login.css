@@ -1,18 +1,57 @@
-/* LIMPAR CONFIGURAÇÃO PADRÃO DO BROWSER*/
-
+/* RESET */
 * {
   margin: 0;
   padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: whitesmoke;
+  color: #0cc05d;
+  overflow-x: hidden;
 }
 
 /* ==================== NAVBAR ===================*/
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  background: #0cc05d;
+  height: 8vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+/* LOGO */
+.logo img {
+  height: 45px;
+  width: auto;
+  display: block;
+}
+
+@media (max-width: 999px) {
+  .logo img {
+    height: 38px;
+  }
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+}
+
 a {
-  color: #000000;
+  color: whitesmoke;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -21,36 +60,7 @@ a:hover {
   opacity: 0.7;
 }
 
-.logo {
-  font-size: 28px;
-  font-family: cursive;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #0cc05d;
-  height: 8vh;
-  position: flex;
-  z-index: 100;
-}
-
-main {
-  height: 92vh;
-}
-
-.nav-list {
-  list-style: none;
-  display: flex;
-}
-
-.nav-list li {
-  letter-spacing: 3px;
-  margin-left: 32px;
-}
-
+/* MENU MOBILE */
 .mobile-menu {
   display: none;
   cursor: pointer;
@@ -58,57 +68,34 @@ main {
 
 .mobile-menu div {
   width: 32px;
-  height: 2px;
-  background: whitesmoke;
-  margin: 8px;
+  height: 3px;
+  background: #fff;
+  margin: 6px;
   transition: 0.3s;
 }
 
-/*======================== MENU RESPONSIVO ================================*/
-
+/* RESPONSIVO NAV */
 @media (max-width: 999px) {
-  body {
-    overflow-x: hidden;
-  }
-
   .nav-list {
     position: absolute;
     top: 8vh;
     right: 0;
-    width: 50vw;
+    width: 60vw;
     height: 92vh;
     background: #0cc05d;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     transform: translateX(100%);
-    transition: transform 0.3s ease-in;
-    z-index: 1;
+    transition: 0.3s ease-in-out;
   }
 
-  .nav-list li {
-    margin-left: 0;
-    opacity: 0;
+  .nav-list.active {
+    transform: translateX(0);
   }
 
   .mobile-menu {
     display: block;
-  }
-}
-
-.nav-list.active {
-  transform: translateX(0);
-}
-
-@keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateX(0);
   }
 }
 
@@ -124,182 +111,67 @@ main {
   transform: rotate(45deg) translate(-5px, -7px);
 }
 
-/* ESTILO PADRÀO */
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background: whitesmoke;
-  color: #0cc05d;
-}
-
-/* RESPONSIVO */
-
-@media only screen and (max-width: 750px) {
-  .servicos-home-lista,
-  .depoimentos-lista,
-  .sobre-corpo,
-  .servicos-corpo {
-    grid-template-columns: 1fr;
-    justify-items: center;
-  }
-
-  .main,
-  .sobre,
-  .servicos {
-    height: 400px;
-  }
-
-  .servicos-home-lista li {
-    max-width: 388px;
-  }
-
-  .depoimentos-lista {
-    padding: 0px;
-  }
-
-  body {
-    overflow-x: hidden;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .main h1 {
-    font-size: 1.5rem;
-  }
-
-  .titulo {
-    font-size: 1.125rem;
-  }
-
-  .depoimentos-lista li {
-    grid-template-columns: 1fr;
-    justify-items: center;
-    text-align: center;
-  }
-
-  body {
-    overflow-x: hidden;
-  }
-}
-
-/*======================== TELA LOGIN RESPONSIVA ===============================*/
-
-
-@media (max-width: 999px) {
-  .content {
-    width: 90%;
-  }
-}
-
-@media (min-width: 1000px) {
-  .content {
-    width: 500px;
-  }
-  
-}
-
-/* CSS reset */
-*,
-*:before,
-*:after {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* content que contem os formulário */
+/* FORMULÁRIO LOGIN */
 .content {
-  margin: 40px auto;
-  position: relative;
-  
-  
+  max-width: 500px;
+  margin: 120px auto 40px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-/* formatando o cabeçalho do formulário */
 h1 {
-  font-size: 30px;
-  color: #0cc05d;
-  font-family: Arial, sans-serif;
-  font-weight: bold;
   text-align: center;
-  line-height: 2.5;
-  
+  color: #0cc05d;
+  font-size: 30px;
+  font-weight: bold;
 }
 
-.caixa {
-  margin: 10px 5px;
-  
+#login {
+  border: 2px solid #0cc05d;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
+
 label {
   color: #0cc05d;
-  position: relative;
-  display: inline-block;
-}
-
-
-
-input {
-  outline: none;
 }
 
 input:not([type='checkbox']) {
-  
-  box-sizing: border-box;
   width: 100%;
   height: 40px;
-  margin-top: 5px;
   padding: 10px;
   border: 1px solid #0cc05d;
-  color: #0cc05d;
   border-radius: 10px;
- 
+  color: #0cc05d;
 }
 
-/*estilo do botão submit */
 button {
-  align-items: center;
   font-size: 18px;
   color: whitesmoke;
   background-color: #0cc05d;
   border-radius: 10px;
-  padding: 5px 20px;
-  display: block;
-  margin: 20px auto;
-}
-/* estilos para formulário */
-#login {
-  position: absolute;
-  width: 100%;
-  padding: 10px 50px;
-  margin: 80px auto;
-  border: 2px solid #0cc05d;
-  border-radius: 10px;
-  font-size: 16px;
-  box-sizing: border-box;
-  line-height: 2;
-  
+  padding: 10px;
+  cursor: pointer;
+  border: none;
 }
 
-
-/*fOOTER*/
-
+/* FOOTER */
 .rodape {
   background-color: #0cc05d;
-  font-family: CodecPro, Helvetica, sans-serif;
-  color: #000000;
-  font-size: 24,3px;
+  color: whitesmoke;
   text-align: center;
-  padding: 20px 0px 20px 0px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  padding: 20px 0;
   width: 100%;
+  margin-top: 40px;
+  position: static;
 }
 
+/* ERRO */
 #msgError {
   text-align: center;
   color: #ff0000;
