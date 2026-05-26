@@ -11,7 +11,6 @@ O objetivo geral deste projeto é a criação de uma aplicação web de fácil a
 ## Integrantes
 
 * Geraldo Rodrigo Couto
-* Gustavo Nicodemos Emmerik
 * Lucas Vinicius Moreira da Silva
 * Victória Silva Martins
 
