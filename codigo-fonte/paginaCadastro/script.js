@@ -1,41 +1,30 @@
-
 function cadastrar() {
 
+  // Validações básicas
   if (nome.value == "" || nome.value.length < 4) {
     alert("Preencha o formulário corretamente!");
     nome.focus();
     return;
   }
+
   if (email.value == "") {
     alert("Preencha o formulário corretamente!");
     email.focus();
     return;
   }
-  if (telefone.value == "" || telefone.value.length < 11) {
+
+  if (cpfcnpj.value == "" || cpfcnpj.value.length < 11) {
     alert("Preencha o formulário corretamente!");
-    telefone.focus();
+    cpfcnpj.focus();
     return;
   }
-  if (local.value == "" || local.value.length < 3) {
-    alert("Preencha o formulário corretamente!");
-    local.focus();
-    return;
-  }
-  if (opcoes.value == "null") {
-    alert("Preencha o formulário corretamente!");
-    opcoes.focus();
-    return;
-  }
-  if (endereco.value == "" || endereco.value.length < 10) {
-    alert("Preencha o formulário corretamente!");
-    endereco.focus();
-    return;
-  }
+
   if (Senha.value == "" || Senha.value.length < 6) {
     alert("Preencha o formulário corretamente!");
     Senha.focus();
     return;
   }
+
   if (ConfirmeSenha.value == "") {
     alert("Preencha o formulário corretamente!");
     ConfirmeSenha.focus();
@@ -48,20 +37,18 @@ function cadastrar() {
     return;
   }
 
+  // Pega lista de usuários já cadastrados (ou cria lista vazia)
   let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
 
-  listaUser.push(
-    {
-      nomeUser: nome.value,
-      emailUser: formulario.email.value,
-      telefoneUser: formulario.telefone.value,
-      localUser: formulario.local.value,
-      opcoesUser: formulario.opcoes.value,
-      enderecoUser: formulario.endereco.value,
-      SenhaUser: formulario.Senha.value,
-      ConfirmeSenhaUser: formulario.ConfirmeSenha.value
-    });
+  // Adiciona novo usuário
+  listaUser.push({
+    nomeUser: nome.value,
+    emailUser: email.value,
+    cpfcnpjUser: cpfcnpj.value,
+    SenhaUser: Senha.value
+  })
 
+  // Salva de volta no localStorage
   localStorage.setItem("listaUser", JSON.stringify(listaUser))
 
   alert("Usuário cadastrado com sucesso!");
