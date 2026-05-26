@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Usuário</title>
+    <link rel="stylesheet" href="style-perfil.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a class="logo" href="../menu/index.html">
+            <img src="../menu/logo-refinance.png" alt="Logo Refinance">
+        </a>
+
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+        <ul class="nav-list">
+            <li><a href="../paginaprimeirospassos/index.html">Primeiros Passos</a></li>
+            <li><a href="../paginaperfil/index.html#perfil">Perfil</a></li>
+            <li><a href="../paginaserviços/serviços.html">Serviços</a></li>
+            <li><a href="../paginasuporte/paginasuporte.html">Suporte</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="content">
+
+        <h1>Meu Perfil</h1>
+
+        <div id="perfil">
+
+            <p><strong>Nome:</strong> <span id="nomeUser"></span></p>
+            <p><strong>Email:</strong> <span id="emailUser"></span></p>
+            <p><strong>Telefone:</strong> <span id="telefoneUser"></span></p>
+
+            <div class="botoes">
+                <button id="editar">Editar Perfil</button>
+                <button id="excluir">Excluir Conta</button>
+                <button id="sair">Sair</button>
+            </div>
+
+        </div>
+
+        <div id="editarPerfil" class="hidden">
+            <h2>Editar Informações</h2>
+
+            <label>Nome</label>
+            <input type="text" id="editNome">
+
+            <label>Email</label>
+            <input type="text" id="editEmail">
+
+            <label>Telefone</label>
+            <input type="text" id="editTelefone">
+
+            <button id="salvarEdicao">Salvar</button>
+            <button id="cancelarEdicao">Cancelar</button>
+        </div>
+
+    </div>
+</main>
+
+<footer class="rodape">
+    <p>Copyright © 2026 Refinance | Todos os direitos reservados.</p>
+</footer>
+
+<script src="../menu/mobile-navbar.js"></script>
+<script src="script-perfil.js"></script>
+
+</body>
+</html>

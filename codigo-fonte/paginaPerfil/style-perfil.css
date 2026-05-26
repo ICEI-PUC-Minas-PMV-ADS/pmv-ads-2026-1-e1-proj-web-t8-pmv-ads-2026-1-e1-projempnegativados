@@ -1,0 +1,87 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: whitesmoke;
+  color: #0cc05d;
+  overflow-x: hidden;
+}
+
+/* NAVBAR (copiado do login) */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  background: #0cc05d;
+  height: 8vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo img {
+  height: 45px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+/* CONTENT */
+.content {
+  max-width: 600px;
+  margin: 120px auto 40px auto;
+  padding: 20px;
+}
+
+#perfil, #editarPerfil {
+  border: 2px solid #0cc05d;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  font-size: 16px;
+  color: whitesmoke;
+  background-color: #0cc05d;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.botoes {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #0cc05d;
+  border-radius: 10px;
+  color: #0cc05d;
+}
