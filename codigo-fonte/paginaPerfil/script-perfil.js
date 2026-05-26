@@ -67,12 +67,17 @@ document.querySelector("#salvarEdicao").addEventListener("click", () => {
 document.querySelector("#excluir").addEventListener("click", () => {
     if (confirm("Tem certeza que deseja excluir sua conta?")) {
 
-        listaUser = listaUser.filter(user => user.emailUser !== userLogado.email)
-        localStorage.setItem("listaUser", JSON.stringify(listaUser))
+       // Remove o usuário da lista
+listaUser = listaUser.filter(user => user.emailUser !== userLogado.email)
+localStorage.setItem("listaUser", JSON.stringify(listaUser))
 
-        localStorage.removeItem("token")
-        localStorage.removeItem("userLogado")
+// Remove sessão
+localStorage.removeItem("token")
+localStorage.removeItem("userLogado")
 
-        window.location.href = "../pagina-login/login.html"
+// Evita voltar com botão "voltar"
+history.replaceState(null, null, "../pagina-login/login.html")
+window.location.href = "../pagina-login/login.html"
+
     }
 })
