@@ -3,7 +3,7 @@
 As páginas apresentam como elementos estruturais o menu de navegação, o header e o footer, garantindo consistência visual e funcional em todo o site. Além disso, foram definidos os seguintes padrões de identidade visual:
 
 Cores:
-Cinza claro (#D9D9D9), cinza de apoio (#BFC2C7), preto (#111111), verde médio (#4F8A5B), branco (#FFFFFF) e off-white (#F8F6F1).
+Cinza claro (#D9D9D9), cinza de apoio (#BFC2C7), preto (#111111), verde médio (#00bf63), branco (#FFFFFF) e off-white (#F8F6F1).
 
 Font-family:
 Para títulos: Montserrat, Arial, sans-serif.
