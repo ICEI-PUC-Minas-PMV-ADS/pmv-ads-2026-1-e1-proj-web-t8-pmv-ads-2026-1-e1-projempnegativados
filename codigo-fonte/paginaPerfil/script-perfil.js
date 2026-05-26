@@ -3,7 +3,7 @@ let listaUser = JSON.parse(localStorage.getItem("listaUser")) || []
 
 // Proteção: se não estiver logado, volta para login
 if (!localStorage.getItem("token")) {
-    window.location.href = "../login/index.html"
+    window.location.href = "../pagina-login/login.html"
 }
 
 // Preenche dados na tela
@@ -14,7 +14,7 @@ document.querySelector("#telefoneUser").innerHTML = userLogado.telefone || "Não
 // Botões
 document.querySelector("#sair").addEventListener("click", () => {
     localStorage.removeItem("token")
-    window.location.href = "../login/index.html"
+    window.location.href = "../pagina-login/login.html"
 })
 
 document.querySelector("#editar").addEventListener("click", () => {
@@ -72,6 +72,6 @@ document.querySelector("#excluir").addEventListener("click", () => {
         localStorage.removeItem("token")
         localStorage.removeItem("userLogado")
 
-        window.location.href = "../login/index.html"
+        window.location.href = "../pagina-login/login.html"
     }
 })
