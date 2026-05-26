@@ -9,7 +9,7 @@ if (!localStorage.getItem("token")) {
 // Preenche dados na tela
 document.querySelector("#nomeUser").innerHTML = userLogado.nome
 document.querySelector("#emailUser").innerHTML = userLogado.email
-document.querySelector("#telefoneUser").innerHTML = userLogado.telefone || "Não informado"
+document.querySelector("#cpfcnpjUser").innerHTML = userLogado.cpfcnpj
 
 // Botões
 document.querySelector("#sair").addEventListener("click", () => {
@@ -23,7 +23,8 @@ document.querySelector("#editar").addEventListener("click", () => {
 
     document.querySelector("#editNome").value = userLogado.nome
     document.querySelector("#editEmail").value = userLogado.email
-    document.querySelector("#editTelefone").value = userLogado.telefone
+    document.querySelector("#editCpfcnpj").value = userLogado.cpfcnpj
+
 })
 
 document.querySelector("#cancelarEdicao").addEventListener("click", () => {
@@ -35,7 +36,7 @@ document.querySelector("#salvarEdicao").addEventListener("click", () => {
 
     let novoNome = document.querySelector("#editNome").value
     let novoEmail = document.querySelector("#editEmail").value
-    let novoTelefone = document.querySelector("#editTelefone").value
+    let novoCpfcnpj = document.querySelector("#editCpfcnpj").value
 
     // Atualiza listaUser
     listaUser = listaUser.map(user => {
@@ -44,7 +45,7 @@ document.querySelector("#salvarEdicao").addEventListener("click", () => {
                 ...user,
                 nomeUser: novoNome,
                 emailUser: novoEmail,
-                telefoneUser: novoTelefone
+                cpfcnpjUser: novoCpfcnpj
             }
         }
         return user
@@ -56,7 +57,7 @@ document.querySelector("#salvarEdicao").addEventListener("click", () => {
     // Atualiza userLogado
     userLogado.nome = novoNome
     userLogado.email = novoEmail
-    userLogado.telefone = novoTelefone
+    userLogado.cpfcnpj = novoCpfcnpj
 
     localStorage.setItem("userLogado", JSON.stringify(userLogado))
 
