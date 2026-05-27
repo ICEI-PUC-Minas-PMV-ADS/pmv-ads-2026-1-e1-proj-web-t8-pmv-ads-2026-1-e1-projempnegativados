@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <meta name="author" content="Equipe Refinance">
+    <meta name="description" content="Primeiros passos financeiros">
+    <title>Primeiros Passos - Refinance</title>
+
+    <link rel="stylesheet" href="../menu/styleMenu.css">
+    <link rel="stylesheet" href="style-primeiro.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a class="logo" href="../paginaCadastro/cadastre-se.html">
+                <img src="../menu/logo-refinance.png" alt="Logo Refinance">
+            </a>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="../pagina-login/login.html">Entrar</a></li>
+                <li><a href="../paginaCadastro/cadastre-se.html">Cadastro</a></li>
+                <li><a href="../paginaperfil/perfil.html">Perfil</a></li>
+                <li><a href="../paginaprimeirospassos/index.html">Primeiros Passos</a></li>
+                <li><a href="../paginaserviços/serviços.html">Serviços</a></li>
+                <li><a href="../paginasuporte/paginasuporte.html">Suporte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="analise-financeira">
+
+            <h1 class="titulo-primeiro">Análise Financeira Inicial</h1>
+
+            <!-- ========================= -->
+            <!-- SEÇÃO DE RENDAS           -->
+            <!-- ========================= -->
+            <h2 class="subtitulo">Rendas Mensais</h2>
+
+            <div class="caixas">
+                <div class="caixa">
+                    <label>Salário</label>
+                    <input type="number" id="renda1" placeholder="0.00">
+                </div>
+
+                <div class="caixa">
+                    <label>Renda Extra</label>
+                    <input type="number" id="renda2" placeholder="0.00">
+                </div>
+
+                <div class="caixa">
+                    <label>Investimentos</label>
+                    <input type="number" id="renda3" placeholder="0.00">
+                </div>
+
+                <div class="caixa">
+                    <label>Outras Rendas</label>
+                    <input type="number" id="renda4" placeholder="0.00">
+                </div>
+            </div>
+
+            <!-- ========================= -->
+            <!-- SEÇÃO DE GASTOS           -->
+            <!-- ========================= -->
+            <h2 class="subtitulo">Gastos Mensais</h2>
+
+            <div class="caixas">
+
+                <div class="caixa">
+                    <label>Moradia</label>
+                    <input type="number" id="gasto1" placeholder="0.00">
+                </div>
+
+                <div class="caixa">
+                    <label>Aluguel</label>
+                    <input type="number" id="gasto2" placeholder="0.00">
+                </div>
+
+                <div class="caixa">
+                    <label>Alimentação</label>
+                    <input type="number" id="gasto3" placeholder="0.00">
+                </div>
+
+                <div class="caixa">
+                    <label>Saúde</label>
+                    <input type="number" id="gasto4" placeholder="0.00">
+                </div>
+
+                <div class="caixa">
+                    <label>Remédios</label>
+                    <input type="number" id="gasto5" placeholder="0.00">
+                </div>
+
+                <div class="caixa">
+                    <label>Transporte</label>
+                    <input type="number" id="gasto6" placeholder="0.00">
+                </div>
+
+                <div class="caixa">
+                    <label>Educação</label>
+                    <input type="number" id="gasto7" placeholder="0.00">
+                </div>
+
+                <div class="caixa">
+                    <label>Lazer</label>
+                    <input type="number" id="gasto8" placeholder="0.00">
+                </div>
+
+                <div class="caixa">
+                    <label>Impostos</label>
+                    <input type="number" id="gasto9" placeholder="0.00">
+                </div>
+
+                <div class="caixa">
+                    <label>Outros Gastos</label>
+                    <input type="number" id="gasto10" placeholder="0.00">
+                </div>
+
+            </div>
+
+            <!-- ========================= -->
+            <!-- RESULTADOS                -->
+            <!-- ========================= -->
+            <h2 class="subtitulo">Resultado da Análise</h2>
+
+            <div class="resultado">
+                <p><strong>Renda Total:</strong> <span id="rendaTotal">0.00</span></p>
+                <p><strong>Gastos Totais:</strong> <span id="gastoTotal">0.00</span></p>
+                <p><strong>Endividamento (%):</strong> <span id="endividamento">0%</span></p>
+            </div>
+
+            <div class="comentarios">
+                <h3>Comentários</h3>
+                <p id="comentarioTexto">Digite seus dados para ver a análise.</p>
+            </div>
+
+            <button class="cad-button" onclick="salvarAnalise()">Salvar Dados</button>
+
+        </div>
+
+    </main>
+
+    <footer class="rodape">
+        <p>Copyright © 2026 Refinance | Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="../menu/mobile-navbar.js"></script>
+    <script src="./script-primeiro.js"></script>
+
+</body>
+
+</html>
