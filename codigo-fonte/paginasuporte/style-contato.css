@@ -1,0 +1,64 @@
+.contato-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 20px 30px;
+
+    border: 2px solid #0cc05d;
+    border-radius: 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0cc05d;
+    text-align: center;
+}
+
+.titulo-contato {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.texto-intro {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.form-contato label {
+    font-weight: bold;
+}
+
+.form-contato input {
+    padding: 10px;
+    border: 1px solid #0cc05d;
+    border-radius: 8px;
+}
+
+.form-contato button {
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #0cc05d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-contato button:hover {
+    background-color: #0aa94f;
+}
+
+.rodape {
+    background-color: #0cc05d;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
