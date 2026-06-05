@@ -1,4 +1,10 @@
 // ===============================
+// PEGAR USUÁRIO LOGADO
+// ===============================
+let userLogado = JSON.parse(localStorage.getItem("userLogado"));
+let emailUser = userLogado ? userLogado.email : null;
+
+// ===============================
 // CARREGAR DADOS AO ABRIR A PÁGINA
 // ===============================
 window.onload = function () {
@@ -56,47 +62,42 @@ function gerarComentario(rendaTotal, gastoTotal, endividamento, moradia, aluguel
 
     let texto = "";
 
-    // Caso não tenha renda
     if (rendaTotal === 0) {
         texto = "Digite suas rendas para iniciar a análise.";
         document.getElementById("comentarioTexto").innerText = texto;
         return;
     }
 
-    // Regra 1: Moradia (máximo 30%)
     if (moradia > rendaTotal * 0.30) {
-        texto += "⚠ Você está gastando mais de 30% da renda com moradia. Isso é acima do recomendado.\n\n";
+        texto += "⚠ Você está gastando mais de 30% da renda com moradia.\n\n";
     } else {
-        texto += "✔ Seus gastos com moradia estão dentro do limite saudável (até 30%).\n\n";
+        texto += "✔ Seus gastos com moradia estão dentro do limite saudável.\n\n";
     }
 
-    // Regra 2: Aluguel (separado)
     if (aluguel > rendaTotal * 0.30) {
-        texto += "⚠ Seu gasto com aluguel ultrapassa 30% da renda. Isso pode comprometer seu orçamento.\n\n";
+        texto += "⚠ Seu gasto com aluguel ultrapassa 30% da renda.\n\n";
     }
 
-    // Regra 3: Endividamento total
     if (endividamento <= 60) {
         texto += "✔ Seu nível de endividamento está saudável.\n\n";
     } else if (endividamento > 60 && endividamento <= 85) {
-        texto += "⚠ Atenção: seu endividamento está moderado. Evite novas despesas fixas.\n\n";
+        texto += "⚠ Atenção: seu endividamento está moderado.\n\n";
     } else {
-        texto += "❌ Seu endividamento está crítico! Mais de 85% da renda está comprometida.\n\n";
+        texto += "❌ Seu endividamento está crítico!\n\n";
     }
 
-    // Regra 4: Sobra de dinheiro
     let sobra = rendaTotal - gastoTotal;
     if (sobra > 0) {
-        texto += "✔ Você ainda possui saldo positivo. Considere investir parte desse valor.\n\n";
+        texto += "✔ Você ainda possui saldo positivo.\n\n";
     } else {
-        texto += "⚠ Você está gastando mais do que ganha. É importante rever seu orçamento.\n\n";
+        texto += "⚠ Você está gastando mais do que ganha.\n\n";
     }
 
     document.getElementById("comentarioTexto").innerText = texto;
 }
 
 // ===============================
-// SALVAR NO LOCALSTORAGE
+// SALVAR NO LOCALSTORAGE (POR USUÁRIO)
 // ===============================
 function salvarAnalise() {
 
@@ -112,19 +113,20 @@ function salvarAnalise() {
         gasto6: getNumber("gasto6"),
         gasto7: getNumber("gasto7"),
         gasto8: getNumber("gasto8")
-        
     };
 
-    localStorage.setItem("analiseFinanceira", JSON.stringify(dados));
+    // Salva usando o e-mail do usuário
+    localStorage.setItem("analiseFinanceira_" + emailUser, JSON.stringify(dados));
 
     alert("Dados salvos com sucesso!");
 }
 
 // ===============================
-// CARREGAR DO LOCALSTORAGE
+// CARREGAR DO LOCALSTORAGE (POR USUÁRIO)
 // ===============================
 function carregarDados() {
-    let dados = JSON.parse(localStorage.getItem("analiseFinanceira"));
+
+    let dados = JSON.parse(localStorage.getItem("analiseFinanceira_" + emailUser));
 
     if (!dados) return;
 
@@ -139,7 +141,6 @@ function carregarDados() {
     document.getElementById("gasto6").value = dados.gasto6;
     document.getElementById("gasto7").value = dados.gasto7;
     document.getElementById("gasto8").value = dados.gasto8;
-    
 }
 
 // ===============================
