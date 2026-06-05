@@ -189,3 +189,12 @@ button {
   border-radius: 4px;
   display: none;
 }
+.nav-list a[href*="perfil"],
+.nav-list a[href*="cadastre-se"],
+.nav-list a[href*="primeirospassos"],
+.nav-list a[href*="servicos"],
+.nav-list a[href*="suporte"] {
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: default;
+}
