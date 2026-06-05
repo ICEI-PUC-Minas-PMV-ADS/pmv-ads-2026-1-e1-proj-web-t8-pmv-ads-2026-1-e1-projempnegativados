@@ -190,7 +190,6 @@ button {
   display: none;
 }
 .nav-list a[href*="perfil"],
-.nav-list a[href*="cadastre-se"],
 .nav-list a[href*="primeirospassos"],
 .nav-list a[href*="servicos"],
 .nav-list a[href*="suporte"] {
