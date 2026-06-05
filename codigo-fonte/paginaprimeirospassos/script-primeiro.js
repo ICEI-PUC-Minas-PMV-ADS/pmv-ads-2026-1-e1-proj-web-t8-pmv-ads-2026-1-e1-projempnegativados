@@ -22,10 +22,8 @@ function calcularTudo() {
     // RENDAS
     let r1 = getNumber("renda1");
     let r2 = getNumber("renda2");
-    let r3 = getNumber("renda3");
-    let r4 = getNumber("renda4");
-
-    let rendaTotal = r1 + r2 + r3 + r4;
+    
+    let rendaTotal = r1 + r2;
     document.getElementById("rendaTotal").innerText = rendaTotal.toFixed(2);
 
     // GASTOS
@@ -37,10 +35,8 @@ function calcularTudo() {
     let g6 = getNumber("gasto6");
     let g7 = getNumber("gasto7");
     let g8 = getNumber("gasto8");
-    let g9 = getNumber("gasto9");
-    let g10 = getNumber("gasto10");
-
-    let gastoTotal = g1 + g2 + g3 + g4 + g5 + g6 + g7 + g8 + g9 + g10;
+    
+    let gastoTotal = g1 + g2 + g3 + g4 + g5 + g6 + g7 + g8;
     document.getElementById("gastoTotal").innerText = gastoTotal.toFixed(2);
 
     // ENDIVIDAMENTO
@@ -107,9 +103,7 @@ function salvarAnalise() {
     let dados = {
         renda1: getNumber("renda1"),
         renda2: getNumber("renda2"),
-        renda3: getNumber("renda3"),
-        renda4: getNumber("renda4"),
-
+       
         gasto1: getNumber("gasto1"),
         gasto2: getNumber("gasto2"),
         gasto3: getNumber("gasto3"),
@@ -117,9 +111,8 @@ function salvarAnalise() {
         gasto5: getNumber("gasto5"),
         gasto6: getNumber("gasto6"),
         gasto7: getNumber("gasto7"),
-        gasto8: getNumber("gasto8"),
-        gasto9: getNumber("gasto9"),
-        gasto10: getNumber("gasto10")
+        gasto8: getNumber("gasto8")
+        
     };
 
     localStorage.setItem("analiseFinanceira", JSON.stringify(dados));
@@ -137,9 +130,7 @@ function carregarDados() {
 
     document.getElementById("renda1").value = dados.renda1;
     document.getElementById("renda2").value = dados.renda2;
-    document.getElementById("renda3").value = dados.renda3;
-    document.getElementById("renda4").value = dados.renda4;
-
+    
     document.getElementById("gasto1").value = dados.gasto1;
     document.getElementById("gasto2").value = dados.gasto2;
     document.getElementById("gasto3").value = dados.gasto3;
@@ -148,8 +139,7 @@ function carregarDados() {
     document.getElementById("gasto6").value = dados.gasto6;
     document.getElementById("gasto7").value = dados.gasto7;
     document.getElementById("gasto8").value = dados.gasto8;
-    document.getElementById("gasto9").value = dados.gasto9;
-    document.getElementById("gasto10").value = dados.gasto10;
+    
 }
 
 // ===============================
