@@ -76,12 +76,12 @@ function gerarComentario(rendaTotal, gastoTotal, endividamento, moradia, aluguel
     }
 
     // Regra 3: Endividamento total
-    if (endividamento <= 30) {
+    if (endividamento <= 60) {
         texto += "✔ Seu nível de endividamento está saudável.\n\n";
-    } else if (endividamento > 30 && endividamento <= 50) {
+    } else if (endividamento > 60 && endividamento <= 85) {
         texto += "⚠ Atenção: seu endividamento está moderado. Evite novas despesas fixas.\n\n";
     } else {
-        texto += "❌ Seu endividamento está crítico! Mais de 50% da renda está comprometida.\n\n";
+        texto += "❌ Seu endividamento está crítico! Mais de 85% da renda está comprometida.\n\n";
     }
 
     // Regra 4: Sobra de dinheiro
