@@ -39,14 +39,10 @@
 }
 
 .imagem-bloco {
-    width: 100%;
-    height: 150px;
-    background-color: #d9ffe8;
-    border-radius: 10px;
-    border: 1px dashed #0cc05d;
-    margin-bottom: 15px;
-
-    /* Aqui você colocará suas imagens futuramente */
+    width: 120px;
+    height: auto;
+    margin: 0 auto 15px;
+    display: block;
 }
 
 .rodape {
