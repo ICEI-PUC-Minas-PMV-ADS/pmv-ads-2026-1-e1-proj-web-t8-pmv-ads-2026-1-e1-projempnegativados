@@ -1,41 +1,44 @@
 function entrar() {
 
-  let email_login = document.querySelector("#email_login")
-  let senha_login = document.querySelector("#senha_login")
-  let msgError = document.querySelector("#msgError")
+  let email_login = document.querySelector("#email_login").value;
+  let senha_login = document.querySelector("#senha_login").value;
+  let msgError = document.querySelector("#msgError");
 
   // Carrega lista de usuários
-  let listaUser = JSON.parse(localStorage.getItem("listaUser") || "[]")
+  let listaUser = JSON.parse(localStorage.getItem("listaUser") || "[]");
 
-  // Objeto para armazenar o usuário encontrado
-  let userValid = null
+  // Procura usuário pelo e-mail
+  let usuarioEncontrado = listaUser.find(item => item.emailUser === email_login);
 
-  // Procura usuário na lista
-  listaUser.forEach((item) => {
-    if (email_login.value === item.emailUser && senha_login.value === item.SenhaUser) {
-      userValid = {
-        nome: item.nomeUser,
-        email: item.emailUser,
-        cpfcnpj: item.cpfcnpjUser,
-        senha: item.SenhaUser
-      }
-    }
-  })
-
-  // Se encontrou o usuário
-  if (userValid) {
-
-    // Cria token
-    let token = Math.random().toString(16).substr(2) + Math.random().toString(16).substr(2)
-    localStorage.setItem("token", token)
-
-    // Salva usuário logado
-    localStorage.setItem("userLogado", JSON.stringify(userValid))
-
-    // Redireciona
-    window.location.href = "../paginaperfil/perfil.html"
-    return
+  // Se o usuário NÃO existir → redireciona para cadastro
+  if (!usuarioEncontrado) {
+      alert("Usuário não encontrado! Faça seu cadastro.");
+      window.location.href = "../paginaCadastro/cadastre-se.html";
+      return;
   }
 
-   
+  // Se existir mas a senha estiver errada
+  if (usuarioEncontrado.SenhaUser !== senha_login) {
+      msgError.innerHTML = "Senha incorreta!";
+      msgError.style.display = "block";
+      return;
+  }
+
+  // Se tudo estiver correto → login bem-sucedido
+  let userValid = {
+      nome: usuarioEncontrado.nomeUser,
+      email: usuarioEncontrado.emailUser,
+      cpfcnpj: usuarioEncontrado.cpfcnpjUser,
+      senha: usuarioEncontrado.SenhaUser
+  };
+
+  // Cria token
+  let token = Math.random().toString(16).substr(2) + Math.random().toString(16).substr(2);
+  localStorage.setItem("token", token);
+
+  // Salva usuário logado
+  localStorage.setItem("userLogado", JSON.stringify(userValid));
+
+  // Redireciona para o perfil
+  window.location.href = "../paginaperfil/perfil.html";
 }

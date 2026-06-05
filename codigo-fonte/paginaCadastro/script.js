@@ -20,13 +20,13 @@ function cadastrar() {
   }
 
   if (Senha.value == "" || Senha.value.length < 6) {
-    alert("Preencha o formulário corretamente!");
+    alert("A senha deve ter pelo menos 6 caracteres!");
     Senha.focus();
     return;
   }
 
   if (ConfirmeSenha.value == "") {
-    alert("Preencha o formulário corretamente!");
+    alert("Confirme sua senha!");
     ConfirmeSenha.focus();
     return;
   }
@@ -37,8 +37,17 @@ function cadastrar() {
     return;
   }
 
-  // Pega lista de usuários já cadastrados (ou cria lista vazia)
-  let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
+  // Carrega lista de usuários
+  let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]');
+
+  // Verifica se o e-mail já está cadastrado
+  let emailExistente = listaUser.find(user => user.emailUser === email.value);
+
+  if (emailExistente) {
+    alert("Este e-mail já está cadastrado! Faça login.");
+    window.location.href = "../pagina-login/login.html";
+    return;
+  }
 
   // Adiciona novo usuário
   listaUser.push({
@@ -46,11 +55,11 @@ function cadastrar() {
     emailUser: email.value,
     cpfcnpjUser: cpfcnpj.value,
     SenhaUser: Senha.value
-  })
+  });
 
-  // Salva de volta no localStorage
-  localStorage.setItem("listaUser", JSON.stringify(listaUser))
+  // Salva no localStorage
+  localStorage.setItem("listaUser", JSON.stringify(listaUser));
 
   alert("Usuário cadastrado com sucesso!");
-  window.location.href = "../pagina-login/login.html"
+  window.location.href = "../pagina-login/login.html";
 }
