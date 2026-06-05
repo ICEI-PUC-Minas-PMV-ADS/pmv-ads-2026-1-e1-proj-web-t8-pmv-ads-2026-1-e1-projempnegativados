@@ -72,6 +72,13 @@ main {
     font-weight: bold;
 }
 
+.nav-list a[href*="Entrar"],
+.nav-list a[href*="Cadastro"] {
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: default;
+}
+
 .caixa input {
     width: 100%;
     height: 38px;
