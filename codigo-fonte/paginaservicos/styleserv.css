@@ -11,6 +11,12 @@
     color: #0cc05d;
     text-align: center;
 }
+/* LOGO */
+.logo img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
 
 .titulo-servicos {
     font-size: 28px;

@@ -35,8 +35,11 @@ main {
     flex: 1;
 }
 
+/* LOGO */
 .logo img {
-  height: 45px;
+  height: 40px;
+  width: auto;
+  display: block;
 }
 
 .nav-list {

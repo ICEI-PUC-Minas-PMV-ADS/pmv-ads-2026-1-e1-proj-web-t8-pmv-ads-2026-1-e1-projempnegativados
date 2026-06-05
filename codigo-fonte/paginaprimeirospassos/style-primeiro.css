@@ -21,6 +21,12 @@
     box-sizing: border-box;
     text-align: center;
 }
+/* LOGO */
+.logo img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
 
 body {
     min-height: 100vh;
