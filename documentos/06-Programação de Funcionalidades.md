@@ -23,10 +23,10 @@ RF-01	Dashboard ou Relatório
 
 #### Instruções de acesso
 
-1- Abra um navegador de Internet e informe a seguinte URL: http://127.0.0.1:5501/codigo-fonte/paginaprimeirospassos/index.html
-2- Informe seu e-mail e senha cadastrados e terá acesso à página de "Cadastro".
-3- Ao clicar em “Primeiros passos” no canto superior direito da tela, terá acesso a página de primeiros passos.
-4- Preencha os seus dados e clique em "salvar dados".
+1.  Abra um navegador de Internet e informe a seguinte URL: http://127.0.0.1:5501/codigo-fonte/paginaprimeirospassos/index.html
+2.  Informe seu e-mail e senha cadastrados e terá acesso à página de "Cadastro".
+3.  Ao clicar em “Primeiros passos” no canto superior direito da tela, terá acesso a página de primeiros passos.
+4.  Preencha os seus dados e clique em "salvar dados".
 
 
 #### Responsável
