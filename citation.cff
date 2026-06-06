@@ -1,12 +1,12 @@
 message: Please cite this software using these metadata.
 title: Refinance
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Rodrigo Couto 
+    given-names: Geraldo
+  - family-names:  Vinicius Moreira da Silva
+    given-names: Lucas 
+  - family-names:  Silva Martins
+    given-names: Victoria
   - family-names: 
     given-names: 
   - family-names: 
@@ -19,8 +19,8 @@ authors:
     given-names: 
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names:  Lemos Tavares
+    given-names: Clóvis
 keywords:
   - 
   - 
