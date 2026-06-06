@@ -8,6 +8,9 @@
 
     <link rel="stylesheet" href="../../menu/styleMenu.css">
     <link rel="stylesheet" href="style-relatorios.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
@@ -25,7 +28,6 @@
             </div>
 
             <ul class="nav-list">
-                
                 <li><a href="../../paginaCadastro/cadastre-se.html">Cadastro</a></li>
                 <li><a href="../../paginaperfil/perfil.html">Perfil</a></li>
                 <li><a href="../../paginaprimeirospassos/index.html">Primeiros Passos</a></li>
@@ -41,27 +43,34 @@
 
             <h1 class="titulo-relatorios">Relatórios Financeiros</h1>
 
+            <!-- ========================= -->
             <!-- VISÃO GERAL -->
+            <!-- ========================= -->
             <div class="bloco">
-                <div class="imagem-bloco"></div>
                 <h2>Visão Geral</h2>
-                <p>
-                    A visão geral reúne as principais informações financeiras em um só lugar, facilitando o
-                    acompanhamento do seu momento atual.
-                </p>
+
+                <div class="dados-visao-geral">
+                    <p><strong>Total de Entradas:</strong> R$ <span id="totalEntradas">0.00</span></p>
+                    <p><strong>Total de Saídas:</strong> R$ <span id="totalSaidas">0.00</span></p>
+                    <p><strong>Saldo Atual:</strong> R$ <span id="saldoAtual">0.00</span></p>
+                    <p><strong>Quantidade de Lançamentos:</strong> <span id="qtdLancamentos">0</span></p>
+                </div>
+
+                <!-- Gráfico de Pizza -->
+                <canvas id="graficoVisaoGeral"></canvas>
             </div>
 
-
+            <!-- ========================= -->
             <!-- CATEGORIAS DE GASTOS -->
+            <!-- ========================= -->
             <div class="bloco">
-                <div class="imagem-bloco"></div>
                 <h2>Categorias de Gastos</h2>
-                <p>
-                    Separar os gastos por categorias, como moradia, alimentação e lazer, permite identificar onde é
-                    possível economizar.
-                </p>
-            </div>
 
+                <div id="listaCategorias"></div>
+
+                <!-- Gráfico de Pizza -->
+                <canvas id="graficoCategorias"></canvas>
+            </div>
 
         </div>
 
