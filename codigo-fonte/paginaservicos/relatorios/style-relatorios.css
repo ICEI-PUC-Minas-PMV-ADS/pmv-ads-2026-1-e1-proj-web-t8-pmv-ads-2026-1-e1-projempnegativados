@@ -11,6 +11,12 @@
     color: #0cc05d;
     text-align: center;
 }
+canvas {
+    max-width: 350px;
+    max-height: 350px;
+    margin: 20px auto;
+    display: block;
+}
 
 .titulo-relatorios {
     font-size: 28px;
