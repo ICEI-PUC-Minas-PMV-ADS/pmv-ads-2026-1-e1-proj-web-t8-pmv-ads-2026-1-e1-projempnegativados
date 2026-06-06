@@ -4,14 +4,15 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 [Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
 
-### Título da funcionalidade
+## Relatório
 
-[Adicione imagem da funcionalidade/tela]
+[<img width="1681" height="958" alt="image" src="https://github.com/user-attachments/assets/c9bf01ca-6878-4d41-8f70-377350a7bd80" />
+]
 
 
 #### Requisito atendido
 
-[RF-X: adicione a descrição do requisito atendido]
+RF-01	Dashboard ou Relatório
 
 
 #### Artefatos da funcionalidade
