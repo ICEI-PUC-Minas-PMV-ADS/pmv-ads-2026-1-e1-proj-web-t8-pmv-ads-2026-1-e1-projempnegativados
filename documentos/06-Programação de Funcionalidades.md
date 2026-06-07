@@ -36,6 +36,29 @@ Geraldo Rodrigo Couto
 
 
 
+## Serviços
+
+<img width="1489" height="945" alt="image" src="https://github.com/user-attachments/assets/07b715f3-3cb6-47a3-8a34-d9c61f5d4698" />
+
+
+#### Requisito atendido
+RF-04	Informações sobre gatilhos
+
+#### Artefatos da funcionalidade
+
+- Educação.html
+- Script-Educacao.js
+- Style-Educacao.css
+
+#### Instruções de acesso
+
+1.  Abra um navegador de Internet e informe a seguinte URL:http://127.0.0.1:5501/codigo-fonte/paginaservicos/servicos.html
+2.  Vá no menu "Serviços" .
+3.  Ao clicar em “Guias e dicas”, redirecionado a página .
+
+
+
+
 > **Links Úteis**:
 > - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
 > - [JSON Tutorial](https://www.w3resource.com/JSON)
