@@ -50,6 +50,14 @@ RF-04	Informações sobre gatilhos
 - Script-Educacao.js
 - Style-Educacao.css
 
+#### Responsável
+
+Victoria Silva Martins
+
+
+
+
+
 #### Instruções de acesso
 
 1.  Abra um navegador de Internet e informe a seguinte URL:http://127.0.0.1:5501/codigo-fonte/paginaservicos/servicos.html
