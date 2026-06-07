@@ -4,8 +4,9 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 ## Relatório
 
-[<img width="1681" height="958" alt="image" src="https://github.com/user-attachments/assets/c9bf01ca-6878-4d41-8f70-377350a7bd80" />
-]
+
+<img width="1247" height="944" alt="image" src="https://github.com/user-attachments/assets/97e8b618-3190-40e9-8026-468fba5e5b26" />
+
 
 
 #### Requisito atendido
