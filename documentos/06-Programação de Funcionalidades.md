@@ -71,7 +71,8 @@ Victoria Silva Martins
 
 ## Suporte  
 
-<img width="1475" height="946" alt="image" src="https://github.com/user-attachments/assets/a0777db8-0834-4d31-9fbc-44429dc44d0b" />
+<img width="1426" height="943" alt="image" src="https://github.com/user-attachments/assets/ece762e7-b1a3-4b3e-9d4d-b6cd24361568" />
+
 
 #### Requisito atendido
 
