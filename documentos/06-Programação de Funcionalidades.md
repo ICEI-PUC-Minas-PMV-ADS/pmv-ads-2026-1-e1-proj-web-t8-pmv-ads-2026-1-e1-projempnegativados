@@ -11,6 +11,7 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 #### Requisito atendido
 
 RF-01	Dashboard ou Relatório
+
 RF-10 Edição de dados gerais
 
 
@@ -44,6 +45,7 @@ Geraldo Rodrigo Couto
 
 #### Requisito atendido
 RF-04	Informações sobre gatilhos
+
 RF-07	Visualização de serviços de consultoria disponíveis
 
 #### Artefatos da funcionalidade
@@ -74,6 +76,7 @@ Victoria Silva Martins
 #### Requisito atendido
 
 RF-06	Email para suporte
+
 RF-12	Redirecionamento para sites específicos para diferentes problemas
 
 #### Artefatos da funcionalidade
