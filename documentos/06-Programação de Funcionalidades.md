@@ -63,6 +63,39 @@ Victoria Silva Martins
 2.  Vá no menu "Serviços" .
 3.  Ao clicar em “Guias e dicas”, redirecionado a página .
 
+   
+
+   
+
+## Suporte  
+
+<img width="1475" height="946" alt="image" src="https://github.com/user-attachments/assets/a0777db8-0834-4d31-9fbc-44429dc44d0b" />
+
+#### Requisito atendido
+
+RF-06	Email para suporte
+RF-12	Redirecionamento para sites específicos para diferentes problemas
+
+#### Artefatos da funcionalidade
+
+- Contato.html
+- Paginasuporte.js
+- Style-contato.css
+- Style-suporte.css
+
+#### Instruções de acesso
+
+1.  Abra um navegador de Internet e informe a seguinte URL:http://127.0.0.1:5501/codigo-fonte/paginasuporte/paginasuporte.html 
+2.  Vá na página de "Suporte".
+3.  Ao clicar em “Suporte", aparece "links utéis" e "Email para suporte".
+
+
+
+#### Responsável
+
+Lucas Vínicius Moreira da Silva 
+
+
 
 
 
