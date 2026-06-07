@@ -11,6 +11,7 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 #### Requisito atendido
 
 RF-01	Dashboard ou Relatório
+RF-10 Edição de dados gerais
 
 
 #### Artefatos da funcionalidade
@@ -43,6 +44,7 @@ Geraldo Rodrigo Couto
 
 #### Requisito atendido
 RF-04	Informações sobre gatilhos
+RF-07	Visualização de serviços de consultoria disponíveis
 
 #### Artefatos da funcionalidade
 
@@ -53,9 +55,6 @@ RF-04	Informações sobre gatilhos
 #### Responsável
 
 Victoria Silva Martins
-
-
-
 
 
 #### Instruções de acesso
