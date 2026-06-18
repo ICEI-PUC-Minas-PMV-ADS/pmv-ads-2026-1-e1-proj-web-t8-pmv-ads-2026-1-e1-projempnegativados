@@ -69,11 +69,11 @@
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 | Dashboard ou Relatório | Média | 
+| RF-01 | Relatório | Alta | 
 | RF-02 | Simulador Financeiro | Alta |
 | RF-03 | Esclarecimento de termos técnicos | Alta |
 | RF-04 | Informações sobre gatilhos | Alta |
-| RF-05 | Consultoria baseada na situação do usuário | Alta |
+| RF-05 | Consultoria baseada na situação do usuário | Média |
 | RF-06 | Email para suporte | Baixa |
 | RF-07 | Visualização de serviços de consultoria disponíveis | Alta |
 | RF-08 | Histórico de atendimentos | Baixa |
