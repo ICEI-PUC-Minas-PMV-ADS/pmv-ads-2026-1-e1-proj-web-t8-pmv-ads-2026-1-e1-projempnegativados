@@ -6,7 +6,7 @@
 
 `1º semestre/2026`
 
-O objetivo geral desta aplicação web é auxiliar os usuários no controle de suas finanças, oferecendo ferramentas de análise, planejamento e educação financeira. 
+O objetivo geral deste projeto é a criação de uma aplicação web de fácil acesso, compreensão e uso que permita a pessoas com dificuldades financeiras a busca de instruções claras e práticas para tomadas de decisão acerca de sua vida financeira.
 
 ## Integrantes 
 
