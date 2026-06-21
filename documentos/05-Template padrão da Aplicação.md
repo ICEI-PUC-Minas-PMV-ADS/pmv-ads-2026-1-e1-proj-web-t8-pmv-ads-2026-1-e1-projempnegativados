@@ -12,13 +12,7 @@ Para textos e elementos gerais: Inter, Arial, Helvetica, sans-serif.
 Font-size:
 Os tamanhos de fonte variam entre 15px e 45px, distribuídos conforme a hierarquia dos elementos, garantindo boa legibilidade e organização visual.
 
-</figure> 
-<hr>
 
-<h3><b>Tela - Home page</b></h3>
-<p>A Exibe informações sobre banners que remetem para guias, cadastro e serviçõs.</p>
-
-![1](https://github.com/user-attachments/assets/40a21879-7889-4a23-ac4a-6848f9e4245e)
 
 </figure> 
 <hr>
@@ -67,22 +61,6 @@ Os tamanhos de fonte variam entre 15px e 45px, distribuídos conforme a hierarqu
 </figure> 
 <hr>
 
-<h3><b>Tela - Ferramentas</</b></h3>
-<p>Exibe informações sobre ferramentas disponíveis na plataforma.</p>
-
-![7](https://github.com/user-attachments/assets/8c5d4384-8df8-4416-aa11-f02f1ab2a091)
-
-</figure> 
-<hr>
-
-<h3><b>Tela - Simuladores</b></h3>
-<P>Exibe informações sobre simulador financeiro.</P>
-
-![8](https://github.com/user-attachments/assets/0656cddd-e81d-49c3-8d7b-2595d2edb9f2)
-
-</figure> 
-<hr>
-
 <h3><b>Tela - Relatórios</b></h3>
 <P>Exibe relatório especifico de acordo com o usuário.</P>
 
@@ -96,14 +74,6 @@ Os tamanhos de fonte variam entre 15px e 45px, distribuídos conforme a hierarqu
 
 ![10](https://github.com/user-attachments/assets/ebec6363-2252-48fb-a5b2-e6c931a008af)
 
-
-</figure> 
-<hr>
-
-<h3><b>Tela - Saiba Mais</b></h3>
-<p>Exibe direcionamento a links especificos de ajuda.</p>
-
-![11](https://github.com/user-attachments/assets/8e26994a-c494-4fa1-893d-24e354629a39)
 
 </figure> 
 <hr>
