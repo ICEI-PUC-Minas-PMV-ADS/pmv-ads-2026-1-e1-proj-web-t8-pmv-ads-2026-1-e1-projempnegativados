@@ -25,7 +25,7 @@ O objetivo geral desta aplicação web é auxiliar os usuários no controle de s
 <li><a href="documentos/02-Especificação do Projeto.md"> Especificação do Projeto</a></li>
 <li><a href="documentos/03-Metodologia.md"> Metodologia</a></li>
 <li><a href="documentos/04-Projeto de Interface.md"> Projeto de Interface</a></li>
-<li><a href="documentos/05-Template padrão da Aplicação.md"> Template padrão do Site</a></li>
+<li><a href="documentos/05-Template padrão da Aplicação.md"> Template padrão da Aplicação</a></li>
 <li><a href="documentos/06-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
 <li><a href="documentos/07-Referências Bibliográficas.md"> Referências Bibliográficas</a></li>
 </ol>
