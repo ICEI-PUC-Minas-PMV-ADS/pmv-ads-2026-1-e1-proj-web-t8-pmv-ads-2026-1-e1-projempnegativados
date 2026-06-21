@@ -1,10 +1,16 @@
 # Referências Bibliográficas
 
-SERASA EXPERIAN. Índice Nacional de Educação Financeira (INDEF). [S. l.], 2020. Disponível em: https://www.serasaexperian.com.br/sala-de-imprensa/educacao-financeira-do-brasileiro-vai-alem-da-escolaridade-revela-estudo-inedito-da-serasa-experian-e-do-ibope-inteligencia. Acesso em: 2 jun. 2026
+SERASA EXPERIAN. Mapa da Inadimplência e Renegociação de Dívidas no Brasil. Disponível em: serasa.com.br. Acesso em: 2026.
 
-BANCO CENTRAL DO BRASIL. Aprender Valor. [S. l.], 2026. Disponível em: https://aprendervalor.bcb.gov.br/site/aprendervalor. Acesso em: 31 mai. 2026.
+IBGE – Instituto Brasileiro de Geografia e Estatística. Pesquisa Nacional por Amostra de Domicílios (PNAD). Rio de Janeiro: IBGE, 2024.
 
-MOBILLS. Mobills: Finanças e Cartões. [S. l.], 2026. Disponível em: https://www.mobills.com.br/. Acesso em: 3 jun. 2026.
+BANCO CENTRAL DO BRASIL. Relatório de Cidadania Financeira. Brasília: BCB, 2024.
+
+CNC – Confederação Nacional do Comércio. Pesquisa de Endividamento e Inadimplência do Consumidor (PEIC). Brasília: CNC, 2025.
+
+MOURE, G. Educação Financeira no Brasil: desafios e perspectivas. Revista Brasileira de Economia, v. 78, n. 2, 2024.
+
+FERREIRAS, A.; LIMA, R. Inclusão Financeira Digital: tecnologia como vetor de acesso. São Paulo: FGV, 2025.
 
 > **Links Úteis**:
 > - [Formato ABNT](https://www.normastecnicas.com/abnt/)
