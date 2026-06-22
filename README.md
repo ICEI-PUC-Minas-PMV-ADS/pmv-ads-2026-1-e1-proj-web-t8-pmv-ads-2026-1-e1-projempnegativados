@@ -52,7 +52,6 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 ## Histórico de versões
 
 ### [0.1.0] - 21/06/2026
-#### Adicionado
 file:///C:/Users/Usuario/OneDrive/Documentos/GitHub/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-projempnegativados/codigo-fonte/paginaCadastro/cadastre-se.html
 
 
