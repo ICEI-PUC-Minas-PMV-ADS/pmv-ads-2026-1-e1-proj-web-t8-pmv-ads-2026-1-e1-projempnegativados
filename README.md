@@ -42,8 +42,8 @@ O objetivo geral deste projeto é a criação de uma aplicação web de fácil a
 ## Estratégia de Organização de Codificação 
 
 - Pasta src (root do projeto): index.html, index.css, index.js - Desenvolvedora responsável: Geraldo
-- Pasta src\serviços: serviços.html, serviços.css, serviços.js - Desenvolvedor responsável: Lucas
-- Pasta src\suporte: suporte.html, suporte.css, suporte.js  - Desenvolvedora responsável: Victoria.
+- Pasta src\serviços: serviços.html, serviços.css, serviços.js - Desenvolvedor responsável: Victoria.
+- Pasta src\suporte: suporte.html, suporte.css, suporte.js  - Desenvolvedora responsável: Lucas.
 
 ## Instalação do Site
 
@@ -53,7 +53,7 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 
 ### [0.1.0] - 21/06/2026
 #### Adicionado
-- Homepage: arquivos HTML, CSS, JS e imagens.
+file:///C:/Users/Usuario/OneDrive/Documentos/GitHub/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-projempnegativados/codigo-fonte/paginaCadastro/cadastre-se.html
 
 
 # Apresentação
