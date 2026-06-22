@@ -32,7 +32,7 @@ O objetivo geral deste projeto é a criação de uma aplicação web de fácil a
 
 # Hospedagem
 
-* <li><a href=file:///C:/Users/Usuario/OneDrive/Documentos/GitHub/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-projempnegativados/codigo-fonte/paginaCadastro/cadastre-se.html >  
+* <a href=file:///C:/Users/Usuario/OneDrive/Documentos/GitHub/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-projempnegativados/codigo-fonte/paginaCadastro/cadastre-se.html >  
 
 # Código-Fonte
 
@@ -48,7 +48,7 @@ Nesse primeiro eixo do curso, para simplificar a utilização do Git e a organiz
 
 ## Instalação do Site
 
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores como em navegadores web. Clique <a href=///C:/Users/Usuario/OneDrive/Documentos/GitHub/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-projempnegativados/codigo-fonte/paginaCadastro/cadastre-se.html>aqui</a> para acessá-lo. 
+O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores como em navegadores web. Clique <a href=//C:/Users/Usuario/OneDrive/Documentos/GitHub/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-projempnegativados/codigo-fonte/paginaCadastro/cadastre-se.html>aqui</a> para acessá-lo. 
 
 ## Histórico de versões
 
