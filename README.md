@@ -32,7 +32,7 @@ O objetivo geral deste projeto é a criação de uma aplicação web de fácil a
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* file:///C:/Users/Usuario/OneDrive/Documentos/GitHub/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-projempnegativados/codigo-fonte/paginaCadastro/cadastre-se.html
 
 # Código-Fonte
 
