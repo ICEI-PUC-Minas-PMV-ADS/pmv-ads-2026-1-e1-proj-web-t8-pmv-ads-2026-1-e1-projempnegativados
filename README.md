@@ -32,11 +32,30 @@ O objetivo geral deste projeto é a criação de uma aplicação web de fácil a
 
 # Hospedagem
 
-* file:///C:/Users/Usuario/OneDrive/Documentos/GitHub/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-projempnegativados/codigo-fonte/paginaCadastro/cadastre-se.html >  
+* <li><a href=file:///C:/Users/Usuario/OneDrive/Documentos/GitHub/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-projempnegativados/codigo-fonte/paginaCadastro/cadastre-se.html >  
 
 # Código-Fonte
 
 * <a href="codigo-fonte/README.md">Código Fonte</a>
+
+
+## Estratégia de Organização de Codificação 
+
+Nesse primeiro eixo do curso, para simplificar a utilização do Git e a organização das pastas e artefatos de implementação no sistema de arquivos, sugerimos que o projeto seja estruturado de modo que cada aluno trabalhe com seus arquivos nas suas respectivas pastas, identificadas por nomes das suas respectivas telas. Por exemplo:
+- Pasta src (root do projeto): index.html, index.css, index.js - Desenvolvedora responsável: Maria.
+- Pasta src\clientes: clientes.html, clientes.css, clientes.js - Desenvolvedor responsável: João.
+- Pasta src\funcionarios: funcionarios.html, funcionarios.css, funcionarios.js  - Desenvolvedora responsável: Silvia.
+
+## Instalação do Site
+
+O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores como em navegadores web. Clique <a href=///C:/Users/Usuario/OneDrive/Documentos/GitHub/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-projempnegativados/codigo-fonte/paginaCadastro/cadastre-se.html>aqui</a> para acessá-lo. 
+
+## Histórico de versões
+
+### [0.1.0] - 03/05/2022
+#### Adicionado
+- Homepage: arquivos HTML, CSS, JS e imagens.
+
 
 # Apresentação
 
